@@ -1,0 +1,188 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    
+    video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translateX(-50%) translateY(-50%);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-size: cover;
+        transition: 1s opacity;
+    }
+    
+    html {
+        background-color: #fff;
+        color: #555;
+        font-family: 'Myriad Pro', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-rendering: optimizeLegibility;
+    }
+    
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    /* ------- HEADER -------*/
+    
+    header {
+        background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+        /*background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/hero.jpg);*/
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    /* ------- HEADER -------*/
+    /* ------- BLOCKS -------*/
+    
+    .hero-text-box {
+        position: absolute;
+        height: 500px;
+        width: 1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 30px;
+        width: 565px;
+        font-weight: 400;
+        text-decoration: none;
+        font-family: "Myriad Pro";
+        font-weight: 400;
+        font-size: 50px;
+    }
+    
+    .registration {
+        background-image: url(img/back1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        text-align: left;
+        float: left;
+    }
+    
+    .timetable {
+        background-image: url(img/back3.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 4px;
+    }
+    
+    .attendance {
+        background-image: url(img/back2.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 150px;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 565px;
+        font-weight: 400;
+        text-decoration: none;
+        font-family: "Myriad Pro";
+        font-weight: 400;
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    
+    .columna1 {
+        background-image: url(img/back5.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        text-align: center;
+    }
+    
+    .columna2 {
+        background-image: url(img/back4.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 250px;
+        text-align: center;
+        margin-left: 152px;
+    }
+    
+    .columna {
+        display: inline-block;
+        padding: 10px 30px;
+        width: 270px;
+        font-weight: 400;
+        text-decoration: none;
+        font-family: "Myriad Pro";
+        font-weight: 400;
+        font-size: 50px;
+    }
+    /* ------- BLOCKS -------*/
+    /* ------- TEXT -------*/
+    
+    h1 {
+        margin: 0, auto;
+        text-align: left;
+        color: #fff;
+        font-size: 80%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+    
+    h2 {
+        margin: 0, auto;
+        text-align: center;
+        color: #fff;
+        font-size: 70%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-weight: 400;
+    }
+    
+    #attendancetext {
+        margin-top: 43px;
+        margin-left: 10px;
+    }
+    
+    #registrationtext {
+        margin-left: 10px;
+    }
+    
+    #timetabletext {
+        margin-left: 10px;
+    }
+    
+    #testresulttext {
+        margin-top: 10px;
+    }
+    
+    #editingtext {
+        margin-top: 10px;
+        font-size: 50%;
+    }
+    
+    #regnumbertext {
+        margin-top: 20%;
+        margin-left: 10px;
+    }
+    
+    #regnumberundertext {
+        text-align: left;
+        margin-left: 10px;
+        margin-top: -20px;
+        font-size: 20px;
+    }
+    /* ------- TEXT -------*/

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #0b3d6e;
+    color: #474546;
+    font-family: 'Myriad Pro', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-left: 30px;
+   padding-top: 30px;
+    font-size: 100%;
+}
+
+h2{
+    font-size: 80%;
+    margin-left:30px;
+    padding-bottom: 5px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #716c6c;
+    content: " ";
+    width: 100%;
+    margin: 0 auto;
+   margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.edit {
+    background-color: #f1ecf0;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left:30px;
+    margin-right:30px;
+    padding-bottom: 40px;
+     
+}
+.add-form {
+    font-size: 79%;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+
+.delete-form{
+    font-size: 79%;
+    font-weight: 400;
+     margin-left: 30px;
+}
+.box-one {
+    width: 80%;
+}
+
+input[type=text] {
+    width: 200%;
+    padding:7px;
+    border-radius: 1px;
+    background-color: #efedf0;
+}
+
+input[type=submit]{
+    background-color: #ffb901;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 300;
+    font-size: 80%;
+    text-decoration: none;
+    border-radius: 5px;
+   transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+}
